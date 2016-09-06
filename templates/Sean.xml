@@ -1,16 +1,46 @@
 <templateSet group="Sean">
-  <template name="testmethod" value="- (void)test_$METHOD_NAME$_should$TEST$ {&#10;    XCTAssert$END$&#10;}" toReformat="false" toShortenFQNames="true">
-    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="assert" value="func assertThat$ASSERTNAME$(file: StaticString = #file, line: UInt = #line) {&#10;    XCTAssert$ASSERTType$($CONDITION$, file: file, line: line)&#10;}" description="Creates a function to perform an XCTAssert" toReformat="false" toShortenFQNames="true">
+    <variable name="ASSERTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASSERTType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="OC_DECLARATION" value="true" />
+      <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
-  <template name="testmethodfirst" value="#pragma mark - $METHOD_NAME$&#10;&#10;- (void)test_$METHOD_NAME$_should$TEST$ {&#10;    XCTAssert$END$&#10;}" toReformat="false" toShortenFQNames="true">
-    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="testclass" value="import XCTest&#10;@testable import $MODULE$&#10;&#10;class $SUT$Tests: XCTestCase {&#10;&#10;    var $SUT_NAME$: $SUT$!&#10;    &#10;    override func setUp() {&#10;        super.setUp()&#10;        $SUT_NAME$ = $SUT$($PARAM$)&#10;    }&#10;    &#10;    // MARK: - $METHOD_UNDER_TEST$&#10;    &#10;    func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;        XCTAssert$END$&#10;    }&#10;}" description="Creates test class template" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="&quot;MyModule&quot;" alwaysStopAt="true" />
+    <variable name="SUT" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUT_NAME" expression="decapitalize(SUT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="OC_DECLARATION" value="true" />
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="assertsurround" value="XCTAssert($SELECTION$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="swift.lang.statement.context" value="true" />
+    </context>
+  </template>
+  <template name="testmethod" value="func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;    XCTAssert$END$&#10;}" description="Creates test method template" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="newtestmethod" value="// MARK: - $METHOD_UNDER_TEST$&#10;&#10;func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;    XCTAssert$END$&#10;}" description="Creates test method template" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="testhelpers" value="// MARK: - Helpers&#10;&#10;func $METHOD_NAME$() {&#10;    $END$&#10;}" description="Creates first helper method" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
 </templateSet>
