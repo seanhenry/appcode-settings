@@ -18,6 +18,9 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta alt back_space" />
   </action>
+  <action id="MergeSettings">
+    <keyboard-shortcut first-keystroke="ctrl meta alt s" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
