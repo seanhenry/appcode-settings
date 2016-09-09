@@ -21,6 +21,9 @@
   <action id="MergeSettings">
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
   </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl meta alt right" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
