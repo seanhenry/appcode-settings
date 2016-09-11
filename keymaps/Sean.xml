@@ -5,6 +5,10 @@
   <action id="AppCode.ChangeTargetAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt t" />
   </action>
+  <action id="CollapseTreeNode">
+    <keyboard-shortcut first-keystroke="subtract" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
@@ -17,6 +21,10 @@
   </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta alt back_space" />
+  </action>
+  <action id="ExpandTreeNode">
+    <keyboard-shortcut first-keystroke="add" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="MergeSettings">
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
