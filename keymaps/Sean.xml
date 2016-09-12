@@ -19,6 +19,9 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta delete" />
+  </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta alt back_space" />
   </action>
@@ -32,7 +35,9 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl meta alt right" />
   </action>
+  <action id="SafeDelete" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="UsageView.Remove" />
 </keymap>
