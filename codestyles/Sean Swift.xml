@@ -35,7 +35,7 @@
   </Objective-C-extensions>
   <codeStyleSettings language="Swift">
     <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
