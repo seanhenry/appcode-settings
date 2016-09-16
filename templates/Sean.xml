@@ -71,4 +71,12 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
+  <template name="structequatable" value="struct $NAME$: Equatable {&#10;    let $INSTANCE$: $INSTANCE_TYPE$&#10;}&#10;&#10;func ==(lhs: $NAME$, rhs: $NAME$) -&gt; Bool {&#10;    return false&#10;}&#10;" description="Creates a struct with a property and Equatable conformance" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;StructName&quot;" alwaysStopAt="true" />
+    <variable name="INSTANCE" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
+    <variable name="INSTANCE_TYPE" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
 </templateSet>

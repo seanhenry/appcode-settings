@@ -33,9 +33,13 @@
       <pair source="c" header="h" />
     </extensions>
   </Objective-C-extensions>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+  </codeStyleSettings>
   <codeStyleSettings language="Swift">
     <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="0" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>

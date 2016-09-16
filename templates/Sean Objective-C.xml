@@ -23,4 +23,11 @@
       <option name="OC_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="property" value="@property ($NONATOMIC$$NEXT$) $END$ " description="Better property completion" toReformat="false" toShortenFQNames="true">
+    <variable name="NONATOMIC" expression="" defaultValue="&quot;nonatomic&quot;" alwaysStopAt="true" />
+    <variable name="NEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
