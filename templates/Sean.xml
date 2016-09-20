@@ -1,0 +1,82 @@
+<templateSet group="Sean">
+  <template name="assert" value="func assertThat$ASSERTNAME$(file: StaticString = #file, line: UInt = #line) {&#10;    XCTAssert$ASSERTType$($CONDITION$, file: file, line: line)&#10;}" description="Creates a function to perform an XCTAssert" toReformat="true" toShortenFQNames="true">
+    <variable name="ASSERTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASSERTType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="testclass" value="import XCTest&#10;@testable import $MODULE$&#10;&#10;class $SUT$Tests: XCTestCase {&#10;&#10;    var $SUT_NAME$: $SUT$!&#10;    &#10;    override func setUp() {&#10;        super.setUp()&#10;        $SUT_NAME$ = $SUT$($PARAM$)&#10;    }&#10;    &#10;    // MARK: - $METHOD_UNDER_TEST$&#10;    &#10;    func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;        XCTAssert$END$&#10;    }&#10;}&#10;" description="Creates test class template" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="&quot;MyModule&quot;" alwaysStopAt="true" />
+    <variable name="SUT" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUT_NAME" expression="decapitalize(SUT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="assertsurround" value="XCTAssert($SELECTION$)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="swift.lang.statement.context" value="true" />
+    </context>
+  </template>
+  <template name="testmethod" value="func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;    XCTAssert$END$&#10;}" description="Creates test method template" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="newtestmethod" value="// MARK: - $METHOD_UNDER_TEST$&#10;&#10;func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;    XCTAssert$END$&#10;}" description="Creates test method template with mark" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="testhelpers" value="// MARK: - Helpers&#10;&#10;func $METHOD_NAME$() {&#10;    $END$&#10;}" description="Creates first helper method" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="fitnessetestclass" value="@objc($TEST_NAME$)&#10;class $TEST_NAME$: NSObject, SlimDecisionTable {&#10;&#10;    // MARK: - Input&#10;    var $INPUT$: String!&#10;&#10;    // MARK: - Output&#10;    var $OUTPUT$: String!&#10;&#10;    // MARK: - Test&#10;    func reset() {&#10;        $INPUT$ = nil&#10;        $OUTPUT$ = nil&#10;    }&#10;&#10;    func execute() {&#10;        $END$&#10;    }&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OUTPUT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="mockclass" value="@testable import $MODULE_NAME$&#10;&#10;class Mock$CLASS_TO_MOCK$: $CLASS_TO_MOCK$ {&#10;    &#10;    $END$&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_TO_MOCK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="structtestclass" value="import XCTest&#10;@testable import $MODULE$&#10;&#10;class $CLASS$Tests: XCTestCase {&#10;&#10;    // MARK: - ==&#10;&#10;    func test_shouldBeEqual_whenPropertiesAreEqual() {&#10;        XCTAssert(isEqual())&#10;    }&#10;&#10;    func test_shouldNotBeEqual_when$CAPITALISED_PROPERTY$sAreNotEqual() {&#10;        XCTAssertFalse(isEqual($PROPERTY$: $VALUE$))&#10;    }&#10;&#10;    // MARK: - Helpers&#10;&#10;    func isEqual(&#10;            $PROPERTY$ $PROPERTY$: $TYPE$ = $DEFAULT_VALUE$&#10;    ) -&gt; Bool {&#10;        let $INSTANCE$ = $CLASS$($PROPERTY$: $DEFAULT_VALUE$)&#10;        let other = $CLASS$($PROPERTY$: $PROPERTY$)&#10;        return $INSTANCE$ == other&#10;    }&#10;}&#10;" description="Creates a test template for a struct with equals template" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="&quot;MyModule&quot;" alwaysStopAt="true" />
+    <variable name="CLASS" expression="className()" defaultValue="&quot;MyClass&quot;" alwaysStopAt="true" />
+    <variable name="CAPITALISED_PROPERTY" expression="" defaultValue="&quot;Property&quot;" alwaysStopAt="true" />
+    <variable name="PROPERTY" expression="decapitalize(CAPITALISED_PROPERTY)" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;unequalValue&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;PropertyType&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="" defaultValue="&quot;defaultValue&quot;" alwaysStopAt="true" />
+    <variable name="INSTANCE" expression="decapitalize(CLASS)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="structequatable" value="struct $NAME$: Equatable {&#10;    let $INSTANCE$: $INSTANCE_TYPE$&#10;}&#10;&#10;func ==(lhs: $NAME$, rhs: $NAME$) -&gt; Bool {&#10;    return false&#10;}&#10;" description="Creates a struct with a property and Equatable conformance" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;StructName&quot;" alwaysStopAt="true" />
+    <variable name="INSTANCE" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
+    <variable name="INSTANCE_TYPE" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+</templateSet>
