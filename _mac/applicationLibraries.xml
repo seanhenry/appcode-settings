@@ -300,6 +300,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/claide-1.0.0/lib" />
       </SOURCES>
     </library>
+    <library name="claide (v1.0.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/claide-1.0.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/claide-1.0.1/lib" />
+      </SOURCES>
+    </library>
     <library name="cocoapods (v1.0.1, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.0.1/bin" />
@@ -930,6 +938,16 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fourflusher-1.0.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fourflusher-1.0.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="fourflusher (v2.0.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fourflusher-2.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fourflusher-2.0.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fourflusher-2.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fourflusher-2.0.1/lib" />
       </SOURCES>
     </library>
     <library name="frameit (v2.5.1, ruby-2.3.0-p0) [gem]">
