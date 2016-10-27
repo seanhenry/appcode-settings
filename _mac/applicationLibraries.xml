@@ -1360,66 +1360,6 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.4.0/lib" />
       </SOURCES>
     </library>
-    <library name="match (v0.6.1, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.1/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.1/lib" />
-      </SOURCES>
-    </library>
-    <library name="match (v0.6.2, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.2/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.2/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.2/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.2/lib" />
-      </SOURCES>
-    </library>
-    <library name="match (v0.6.3, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.3/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.3/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.3/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.3/lib" />
-      </SOURCES>
-    </library>
-    <library name="match (v0.6.4, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.4/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.4/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.4/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.6.4/lib" />
-      </SOURCES>
-    </library>
-    <library name="match (v0.8.0, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.0/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.0/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.0/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.0/lib" />
-      </SOURCES>
-    </library>
-    <library name="match (v0.8.1, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.1/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/match-0.8.1/lib" />
-      </SOURCES>
-    </library>
     <library name="memoist (v0.14.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/memoist-0.14.0/lib" />
