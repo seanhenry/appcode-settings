@@ -1,0 +1,78 @@
+<templateSet group="qualitycoding.org">
+  <template name="props" value="@property (nonatomic, strong) $DECLARATION$;$END$" description="strong @property" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="setup" value="- (void)setUp&#10;{&#10;    [super setUp];&#10;    $END$&#10;}" description="Test fixture set-up" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="teardown" value="- (void)tearDown&#10;{&#10;    $END$&#10;    [super tearDown];&#10;}" description="Test fixture tear-down" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="test" value="- (void)test$NAME$&#10;{&#10;    $END$&#10;}" description="Test case" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Foo_ShouldBar&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="testbutton" value="- (void)test$BUTTON_CAPITALIZED$_ShouldHaveAction&#10;{&#10;    [sut view];&#10;    &#10;    assertThat([sut.$BUTTON_VAR$ actionsForTarget:sut forControlEvent:UIControlEventTouchUpInside],&#10;               contains(@&quot;$SELECTOR$&quot;, nil));&#10;}&#10;" description="Test UIButton Action" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="BUTTON_CAPITALIZED" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BUTTON_VAR" expression="decapitalize(BUTTON_CAPITALIZED)" defaultValue="" alwaysStopAt="false" />
+    <variable name="SELECTOR" expression="" defaultValue="&quot;selector:&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="propw" value="@property (nonatomic, weak) $DECLARATION$;$END$" description="weak @property" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ws" value="__weak typeof(self) weakSelf = self;" description="Weak self" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OC_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="hamcrest" value="#import &lt;OCHamcrest/OCHamcrest.h&gt;" description="Import OCHamcrest" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="mockito" value="#import &lt;OCMockito/OCMockito.h&gt;" description="Import OCMockito" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="testoutlet" value="- (void)test$OUTLET_CAPITALIZED$_ShouldBeConnected&#10;{&#10;    [sut view];&#10;    &#10;    assertThat(sut.$OUTLET_VAR$, is(notNilValue()));&#10;}&#10;" description="Test IBOutlet Connection" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="OUTLET_CAPITALIZED" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OUTLET_VAR" expression="decapitalize(OUTLET_CAPITALIZED)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="outs" value="@property (nonatomic, strong) IBOutlet $DECLARATION$;$END$" description="strong IBOutlet" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="outw" value="@property (nonatomic, weak) IBOutlet $DECLARATION$;$END$" description="weak IBOutlet" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="action" value="- (IBAction)$ACTION$:(id)sender&#10;{&#10;    $END$&#10;}" description="IBAction method" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
