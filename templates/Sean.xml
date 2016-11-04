@@ -78,4 +78,9 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
+  <template name="log" value="print(&quot;\(self.dynamicType).\(#function)&quot;)" description="Log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="swift.lang.context" value="true" />
+    </context>
+  </template>
 </templateSet>
