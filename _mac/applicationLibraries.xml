@@ -568,6 +568,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib" />
       </SOURCES>
     </library>
+    <library name="connection_pool (v2.2.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/connection_pool-2.2.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/connection_pool-2.2.0/lib" />
+      </SOURCES>
+    </library>
     <library name="credentials_manager (v0.15.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/credentials_manager-0.15.0/bin" />
@@ -1488,6 +1496,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/memoist-0.14.0/lib" />
       </SOURCES>
     </library>
+    <library name="method_source (v0.8.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/method_source-0.8.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/method_source-0.8.2/lib" />
+      </SOURCES>
+    </library>
     <library name="method_source (v0.8.2, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/method_source-0.8.2/lib" />
@@ -2064,6 +2080,18 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-10.5.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-10.5.0/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-10.5.0/rakelib" />
+      </SOURCES>
+    </library>
+    <library name="rake (v11.3.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-11.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-11.3.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-11.3.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-11.3.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-11.3.0/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/rake-11.3.0/lib" />
       </SOURCES>
     </library>
     <library name="rb-fsevent (v0.9.7, ruby-2.3.0-p0) [gem]">
