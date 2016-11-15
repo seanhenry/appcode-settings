@@ -58,11 +58,10 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
-  <template name="structtestclass" value="import XCTest&#10;@testable import $MODULE$&#10;&#10;class $CLASS$Tests: XCTestCase {&#10;&#10;    // MARK: - ==&#10;&#10;    func test_shouldBeEqual_whenPropertiesAreEqual() {&#10;        XCTAssert(isEqual())&#10;    }&#10;&#10;    func test_shouldNotBeEqual_when$CAPITALISED_PROPERTY$sAreNotEqual() {&#10;        XCTAssertFalse(isEqual($PROPERTY$: $VALUE$))&#10;    }&#10;&#10;    // MARK: - Helpers&#10;&#10;    func isEqual(&#10;            $PROPERTY$ $PROPERTY$: $TYPE$ = $DEFAULT_VALUE$&#10;    ) -&gt; Bool {&#10;        let $INSTANCE$ = $CLASS$($PROPERTY$: $DEFAULT_VALUE$)&#10;        let other = $CLASS$($PROPERTY$: $PROPERTY$)&#10;        return $INSTANCE$ == other&#10;    }&#10;}&#10;" description="Creates a test template for a struct with equals template" toReformat="true" toShortenFQNames="true">
+  <template name="structtestclass" value="import XCTest&#10;@testable import $MODULE$&#10;&#10;class $CLASS$Tests: XCTestCase {&#10;&#10;    // MARK: - ==&#10;&#10;    func test_shouldBeEqual_whenPropertiesAreEqual() {&#10;        XCTAssert(isEqual())&#10;    }&#10;&#10;    func test_shouldNotBeEqual_whenPropertiesAreNotEqual() {&#10;        XCTAssertFalse(isEqual($PROPERTY$: $VALUE$))&#10;    }&#10;&#10;    // MARK: - Helpers&#10;&#10;    func isEqual(&#10;        $PROPERTY$: $TYPE$ = $DEFAULT_VALUE$&#10;    ) -&gt; Bool {&#10;        let $INSTANCE$ = $CLASS$($PROPERTY$: $DEFAULT_VALUE$)&#10;        let other = $CLASS$($PROPERTY$: $PROPERTY$)&#10;        return $INSTANCE$ == other&#10;    }&#10;}&#10;" description="Creates a test template for a struct with equals template" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="&quot;MyModule&quot;" alwaysStopAt="true" />
     <variable name="CLASS" expression="className()" defaultValue="&quot;MyClass&quot;" alwaysStopAt="true" />
-    <variable name="CAPITALISED_PROPERTY" expression="" defaultValue="&quot;Property&quot;" alwaysStopAt="true" />
-    <variable name="PROPERTY" expression="decapitalize(CAPITALISED_PROPERTY)" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
+    <variable name="PROPERTY" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;unequalValue&quot;" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="&quot;PropertyType&quot;" alwaysStopAt="true" />
     <variable name="DEFAULT_VALUE" expression="" defaultValue="&quot;defaultValue&quot;" alwaysStopAt="true" />
@@ -77,6 +76,11 @@
     <variable name="INSTANCE_TYPE" expression="" defaultValue="&quot;Type&quot;" alwaysStopAt="true" />
     <context>
       <option name="swift.lang.declaration.context" value="true" />
+    </context>
+  </template>
+  <template name="log" value="print(&quot;\(self.dynamicType).\(#function)&quot;)" description="Log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="swift.lang.context" value="true" />
     </context>
   </template>
 </templateSet>

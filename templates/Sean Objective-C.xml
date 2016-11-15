@@ -30,4 +30,20 @@
       <option name="OC_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="log" value="NSLog(@&quot;&gt;&gt;&gt; [%@ %@]&quot;, NSStringFromClass([self class]), NSStringFromSelector(_cmd));" description="Log message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="objc" value="true" />
+    </context>
+  </template>
+  <template name="weakSelf" value="__weak typeof(self) weakSelf = self;" description="Weak self snippet" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OC_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="strongSelf" value="typeof(self) strongSelf = weakSelf;&#10;if (strongSelf == nil) {&#10;    return$RETURN$;&#10;}&#10;$END$" description="Strong self snippet" toReformat="true" toShortenFQNames="true">
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
