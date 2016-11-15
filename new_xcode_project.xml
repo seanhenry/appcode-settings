@@ -1,11 +1,12 @@
 <application>
   <component name="XcodeNewProjectMetadata">
-    <lastUsedFolder path="$USER_HOME$/source" />
+    <lastUsedFolder path="$USER_HOME$/source/kata" />
     <string key="organizationName" value="Sean" />
     <string key="languageChoice" value="Swift" />
-    <string key="bundleIdentifierPrefix" value="codes.seanhenry" />
+    <boolean key="storyboardBased" value="false" />
+    <string key="documentExtension" value="mydoc" />
     <boolean key="hasUnitTests" value="true" />
-    <boolean key="coreData" value="false" />
+    <string key="bundleIdentifierPrefix" value="codes.seanhenry" />
     <boolean key="hasUITests" value="false" />
     <string key="universalDeviceFamily" value="Universal" />
   </component>
