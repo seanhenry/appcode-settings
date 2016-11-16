@@ -810,6 +810,20 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dotenv-2.1.1/lib" />
       </SOURCES>
     </library>
+    <library name="dragonfly (v1.1.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/dev" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/tmp" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/samples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/dev" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/tmp" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/dragonfly-1.1.1/samples" />
+      </SOURCES>
+    </library>
     <library name="erubis (v2.7.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/erubis-2.7.0/bin" />
@@ -1290,6 +1304,22 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/http-cookie-1.0.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="httparty (v0.14.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/script" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/website" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/features" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/script" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/website" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/httparty-0.14.0/features" />
       </SOURCES>
     </library>
     <library name="httpclient (v2.7.1, ruby-2.3.0-p0) [gem]">
