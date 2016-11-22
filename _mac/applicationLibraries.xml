@@ -798,6 +798,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/deliver-1.15.0/lib" />
       </SOURCES>
     </library>
+    <library name="deliver (v1.15.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/deliver-1.15.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/deliver-1.15.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/deliver-1.15.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/deliver-1.15.1/lib" />
+      </SOURCES>
+    </library>
     <library name="did_you_mean (v1.0.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0@global/gems/did_you_mean-1.0.0/lib" />
@@ -1092,6 +1102,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane-1.109.0/lib" />
       </SOURCES>
     </library>
+    <library name="fastlane (v1.110.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane-1.110.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane-1.110.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane-1.110.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane-1.110.0/lib" />
+      </SOURCES>
+    </library>
     <library name="fastlane (v1.81.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane-1.81.0/bin" />
@@ -1180,6 +1200,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane_core-0.55.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="fastlane_core (v0.56.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane_core-0.56.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/fastlane_core-0.56.0/lib" />
       </SOURCES>
     </library>
     <library name="ffi (v1.9.10, ruby-2.3.0-p0) [gem]">
@@ -2200,6 +2228,16 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/pilot-1.12.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/pilot-1.12.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="pilot (v1.12.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/pilot-1.12.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/pilot-1.12.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/pilot-1.12.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/pilot-1.12.1/lib" />
       </SOURCES>
     </library>
     <library name="pilot (v1.5.0, ruby-2.3.0-p0) [gem]">
