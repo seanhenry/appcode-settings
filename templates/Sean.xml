@@ -10,7 +10,7 @@
   <template name="testclass" value="import XCTest&#10;@testable import $MODULE$&#10;&#10;class $SUT$Tests: XCTestCase {&#10;&#10;    var $SUT_NAME$: $SUT$!&#10;    &#10;    override func setUp() {&#10;        super.setUp()&#10;        $SUT_NAME$ = $SUT$($PARAM$)&#10;    }&#10;    &#10;    // MARK: - $METHOD_UNDER_TEST$&#10;    &#10;    func test_$METHOD_UNDER_TEST$_should$DESCRIPTION$() {&#10;        XCTAssert$END$&#10;    }&#10;}&#10;" description="Creates test class template" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE" expression="" defaultValue="&quot;MyModule&quot;" alwaysStopAt="true" />
     <variable name="SUT" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="SUT_NAME" expression="decapitalize(SUT)" defaultValue="" alwaysStopAt="false" />
+    <variable name="SUT_NAME" expression="decapitalize(SUT)" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD_UNDER_TEST" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
