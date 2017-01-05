@@ -392,16 +392,6 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/claide-1.0.1/lib" />
       </SOURCES>
     </library>
-    <library name="cocoapods (v1.0.1, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.0.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.0.1/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.0.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.0.1/lib" />
-      </SOURCES>
-    </library>
     <library name="cocoapods (v1.1.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0/bin" />
@@ -410,26 +400,6 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0/lib" />
-      </SOURCES>
-    </library>
-    <library name="cocoapods (v1.1.0.rc.2, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0.rc.2/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0.rc.2/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0.rc.2/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.0.rc.2/lib" />
-      </SOURCES>
-    </library>
-    <library name="cocoapods (v1.1.1, ruby-2.3.0-p0) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.1/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.1/bin" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/cocoapods-1.1.1/lib" />
       </SOURCES>
     </library>
     <library name="cocoapods-core (v1.0.1, ruby-2.3.0-p0) [gem]">
@@ -2062,6 +2032,16 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/nanaimo-0.1.2/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/nanaimo-0.1.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="nanaimo (v0.2.3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/nanaimo-0.2.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/nanaimo-0.2.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/nanaimo-0.2.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/nanaimo-0.2.3/lib" />
       </SOURCES>
     </library>
     <library name="nap (v1.1.0, ruby-2.3.0-p0) [gem]">
