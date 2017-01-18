@@ -1,6 +1,6 @@
 <application>
   <component name="XcodeNewProjectMetadata">
-    <lastUsedFolder path="$USER_HOME$/source/kata" />
+    <lastUsedFolder path="$USER_HOME$/source" />
     <string key="organizationName" value="Sean" />
     <string key="languageChoice" value="Swift" />
     <boolean key="storyboardBased" value="false" />
