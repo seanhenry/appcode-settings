@@ -1,6 +1,0 @@
-<application>
-  <component name="ActionMacroManager">
-    <macro name="Switch to Staging" />
-    <macro name="Switch to Unit Tests" />
-  </component>
-</application>
