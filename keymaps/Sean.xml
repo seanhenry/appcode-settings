@@ -48,4 +48,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="UsageView.Remove" />
+  <action id="com.insightfulminds.appcode.schemeselector.TargetComboBoxPopupAction">
+    <keyboard-shortcut first-keystroke="alt dead_grave" />
+  </action>
 </keymap>
