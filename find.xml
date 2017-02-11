@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="Project 'AppCode Tests'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'AppCode Tests'" />
+    <option name="FILE_MASK" value="*.swift" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,6 +17,7 @@
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.m</mask>
+      <mask>*.swift</mask>
     </recentFileMasks>
   </component>
 </application>
