@@ -114,6 +114,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/colored-1.2/lib" />
       </SOURCES>
     </library>
+    <library name="colorize (v0.8.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/colorize-0.8.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/colorize-0.8.1/lib" />
+      </SOURCES>
+    </library>
     <library name="concurrent-ruby (v1.0.4, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.4/lib" />
@@ -384,6 +392,16 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@global/gems/rvm-1.11.3.9/lib" />
+      </SOURCES>
+    </library>
+    <library name="synx (v0.2.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/synx-0.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/synx-0.2.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/synx-0.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/synx-0.2.1/lib" />
       </SOURCES>
     </library>
     <library name="test-unit (v3.1.5, ruby-2.3.3-p222) [gem]">
