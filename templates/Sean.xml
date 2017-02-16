@@ -1,5 +1,5 @@
 <templateSet group="Sean">
-  <template name="assert" value="func assertThat$ASSERTNAME$(file: StaticString = #file, line: UInt = #line) {&#10;    XCTAssert$ASSERTType$($CONDITION$, file: file, line: line)&#10;}" description="Creates a function to perform an XCTAssert" toReformat="true" toShortenFQNames="true">
+  <template name="assert" value="func assert$ASSERTNAME$(file: StaticString = #file, line: UInt = #line) {&#10;    XCTAssert$ASSERTType$($CONDITION$, file: file, line: line)&#10;}" description="Creates a function to perform an XCTAssert" toReformat="true" toShortenFQNames="true">
     <variable name="ASSERTNAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ASSERTType" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -81,6 +81,14 @@
   <template name="log" value="print(&quot;\(self.dynamicType).\(#function)&quot;)" description="Log" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="swift.lang.context" value="true" />
+    </context>
+  </template>
+  <template name="assertlocal" value="func assert$ASSERTNAME$(line: UInt = #line) {&#10;    XCTAssert$ASSERTType$($CONDITION$, line: line)&#10;}" description="Creates a function to perform an XCTAssert" toReformat="true" toShortenFQNames="true">
+    <variable name="ASSERTNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ASSERTType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
 </templateSet>
