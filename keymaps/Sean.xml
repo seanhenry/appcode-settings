@@ -2,6 +2,9 @@
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
   <action id="AppCode.ChangeTargetAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt t" />
   </action>
