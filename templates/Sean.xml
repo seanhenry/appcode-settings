@@ -18,7 +18,7 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
-  <template name="assertsurround" value="XCTAssert($SELECTION$)" toReformat="true" toShortenFQNames="true">
+  <template name="assertsurround" value="XCTAssert($SELECTION$)" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="swift.lang.statement.context" value="true" />
     </context>
@@ -43,7 +43,7 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
-  <template name="fitnessetestclass" value="@objc($TEST_NAME$)&#10;class $TEST_NAME$: NSObject, SlimDecisionTable {&#10;&#10;    // MARK: - Input&#10;    var $INPUT$: String!&#10;&#10;    // MARK: - Output&#10;    var $OUTPUT$: String!&#10;&#10;    // MARK: - Test&#10;    func reset() {&#10;        $INPUT$ = nil&#10;        $OUTPUT$ = nil&#10;    }&#10;&#10;    func execute() {&#10;        $END$&#10;    }&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="fitnessetestclass" value="@objc($TEST_NAME$)&#10;class $TEST_NAME$: NSObject, SlimDecisionTable {&#10;&#10;    // MARK: - Input&#10;    var $INPUT$: String!&#10;&#10;    // MARK: - Output&#10;    var $OUTPUT$: String!&#10;&#10;    // MARK: - Test&#10;    func reset() {&#10;        $INPUT$ = nil&#10;        $OUTPUT$ = nil&#10;    }&#10;&#10;    func execute() {&#10;        $END$&#10;    }&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="OUTPUT" expression="" defaultValue="" alwaysStopAt="true" />
@@ -51,7 +51,7 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
-  <template name="mockclass" value="@testable import $MODULE_NAME$&#10;&#10;class Mock$CLASS_TO_MOCK$: $CLASS_TO_MOCK$ {&#10;    &#10;    $END$&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="mockclass" value="@testable import $MODULE_NAME$&#10;&#10;class Mock$CLASS_TO_MOCK$: $CLASS_TO_MOCK$ {&#10;    &#10;    $END$&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_TO_MOCK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
