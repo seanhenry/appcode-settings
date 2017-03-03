@@ -8,6 +8,9 @@
   <action id="AppCode.ChangeTargetAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt t" />
   </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="subtract" />
     <keyboard-shortcut first-keystroke="meta alt left" />
