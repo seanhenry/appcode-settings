@@ -92,4 +92,18 @@
       <option name="swift.lang.declaration.context" value="true" />
     </context>
   </template>
+  <template name="lineParam" value="line: UInt = #line" description="Adds line parameter for asserts" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="swift.lang.context" value="true" />
+      <option name="swift.lang.declaration.context" value="false" />
+      <option name="swift.lang.statement.context" value="false" />
+    </context>
+  </template>
+  <template name="passLine" value="line: line" description="Passes the line parameter into an assert" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="swift.lang.context" value="true" />
+      <option name="swift.lang.declaration.context" value="false" />
+      <option name="swift.lang.statement.context" value="false" />
+    </context>
+  </template>
 </templateSet>
