@@ -11,10 +11,6 @@
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
-  <action id="CollapseTreeNode">
-    <keyboard-shortcut first-keystroke="subtract" />
-    <keyboard-shortcut first-keystroke="meta alt left" />
-  </action>
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
@@ -40,6 +36,18 @@
   </action>
   <action id="MergeSettings">
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ctrl meta close_bracket" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ctrl meta open_bracket" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl meta alt right" />
