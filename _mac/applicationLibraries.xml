@@ -50,6 +50,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-1.2.0/lib" />
       </SOURCES>
     </library>
+    <library name="cocoapods (v1.2.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-1.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-1.2.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-1.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-1.2.1/lib" />
+      </SOURCES>
+    </library>
     <library name="cocoapods-core (v1.1.1, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-core-1.1.1/lib" />
@@ -64,6 +74,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-core-1.2.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="cocoapods-core (v1.2.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-core-1.2.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-core-1.2.1/lib" />
       </SOURCES>
     </library>
     <library name="cocoapods-deintegrate (v1.0.1, ruby-2.3.3-p222) [gem]">
@@ -114,6 +132,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-trunk-1.1.2/lib" />
       </SOURCES>
     </library>
+    <library name="cocoapods-trunk (v1.2.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-trunk-1.2.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-trunk-1.2.0/lib" />
+      </SOURCES>
+    </library>
     <library name="cocoapods-try (v1.1.0, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/cocoapods-try-1.1.0/lib" />
@@ -128,6 +154,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/colored-1.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="colored2 (v3.1.2, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/colored2-3.1.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/colored2-3.1.2/lib" />
       </SOURCES>
     </library>
     <library name="colorize (v0.8.1, ruby-2.3.3-p222) [gem]">
@@ -316,6 +350,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/molinillo-0.5.6/lib" />
       </SOURCES>
     </library>
+    <library name="molinillo (v0.5.7, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/molinillo-0.5.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/molinillo-0.5.7/lib" />
+      </SOURCES>
+    </library>
     <library name="nanaimo (v0.2.3, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/nanaimo-0.2.3/bin" />
@@ -394,6 +436,14 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/ruby-macho-0.2.6/lib" />
       </SOURCES>
     </library>
+    <library name="ruby-macho (v1.1.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/ruby-macho-1.1.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/ruby-macho-1.1.0/lib" />
+      </SOURCES>
+    </library>
     <library name="rubygems-bundler (v1.4.4, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3@global/gems/rubygems-bundler-1.4.4/lib" />
@@ -460,6 +510,16 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/xcodeproj-1.4.2/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/xcodeproj-1.4.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="xcodeproj (v1.4.4, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/xcodeproj-1.4.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/xcodeproj-1.4.4/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/xcodeproj-1.4.4/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/xcodeproj-1.4.4/lib" />
       </SOURCES>
     </library>
     <library name="xcpretty (v0.2.4, ruby-2.3.3-p222) [gem]">
