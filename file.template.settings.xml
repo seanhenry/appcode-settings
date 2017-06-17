@@ -1,7 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="Sean Swift File.swift" reformat="true" live-template-enabled="true" />
+      <template name="Swift Test.swift" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>
