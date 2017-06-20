@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'TestProject'" />
-    <option name="defaultScopeName" value="Project 'TestProject'" />
+    <option name="customScope" value="Project 'Bowling'" />
+    <option name="defaultScopeName" value="Project 'Bowling'" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Project 'TestProject'" />
+    <option name="SEARCH_SCOPE" value="Project 'Bowling'" />
     <option name="FILE_MASK" value="*.swift" />
     <recentFileMasks>
       <mask>*.properties</mask>
