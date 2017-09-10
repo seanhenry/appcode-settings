@@ -1,0 +1,29 @@
+<application>
+  <component name="AlternateApplicationComponent">
+    <option name="genericPostfixRegexItems">
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="Impl" />
+        <option name="grouping" value="true" />
+        <option name="description" value="Implementations" />
+      </AlternateGenericPrefixPostfixRegexItem>
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="[Tt]est" />
+        <option name="grouping" value="true" />
+        <option name="description" value="Test classes and files" />
+      </AlternateGenericPrefixPostfixRegexItem>
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="(?:_\w{2}(?:_\w{2})?)" />
+        <option name="description" value="Locales (ex: 'description_en_UK.properties')" />
+      </AlternateGenericPrefixPostfixRegexItem>
+      <AlternateGenericPrefixPostfixRegexItem>
+        <option name="type" value="POSTFIX" />
+        <option name="expression" value="Tests" />
+        <option name="grouping" value="true" />
+        <option name="description" value="" />
+      </AlternateGenericPrefixPostfixRegexItem>
+    </option>
+  </component>
+</application>
