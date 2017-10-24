@@ -1,4 +1,7 @@
 <keymap version="1" name="Sean Default" parent="Mac OS X 10.5+">
+  <action id="AppCode.ChangeTargetAction">
+    <keyboard-shortcut first-keystroke="ctrl meta alt t" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
