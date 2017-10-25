@@ -1,5 +1,27 @@
 <application>
   <component name="AlternateApplicationComponent">
+    <option name="freeRegexActive" value="true" />
+    <option name="freeRegexItems">
+      <list>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*)Tests\.swift$" />
+          <option name="replaceExpression" value="$1.swift" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.swift$" />
+          <option name="replaceExpression" value="$1Tests.swift" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*)Spec\.swift$" />
+          <option name="replaceExpression" value="$1.swift" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.swift$" />
+          <option name="replaceExpression" value="$1Spec.swift" />
+        </AlternateFreeRegexItem>
+      </list>
+    </option>
+    <option name="genericRegexActive" value="false" />
     <option name="genericPostfixRegexItems">
       <AlternateGenericPrefixPostfixRegexItem>
         <option name="type" value="POSTFIX" />
