@@ -1,4 +1,4 @@
-<code_scheme name="Sean Swift">
+<code_scheme name="Sean Swift" version="173">
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
@@ -28,9 +28,9 @@
       <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
     </class>
     <extensions>
-      <pair source="mm" header="h" />
-      <pair source="cpp" header="h" />
-      <pair source="c" header="h" />
+      <pair source="mm" header="h" fileNamingConvention="NONE" />
+      <pair source="cpp" header="h" fileNamingConvention="NONE" />
+      <pair source="c" header="h" fileNamingConvention="NONE" />
     </extensions>
   </Objective-C-extensions>
   <codeStyleSettings language="ObjectiveC">
@@ -41,6 +41,8 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="Swift">
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
