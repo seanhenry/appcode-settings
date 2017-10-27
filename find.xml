@@ -6,14 +6,6 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.swift,*.m,*.h" />
     <recentFileMasks>
-      <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
       <mask>*.m</mask>
       <mask>B*.swift</mask>
       <mask>Build*.swift</mask>
@@ -35,6 +27,14 @@
       <mask>*.swift;*.m*.h</mask>
       <mask>*.swift;*.m,*.h</mask>
       <mask>*.swift*.m,*.h</mask>
+      <mask>.</mask>
+      <mask>.s</mask>
+      <mask>.st</mask>
+      <mask>.stor</mask>
+      <mask>.storybo</mask>
+      <mask>.storyboar</mask>
+      <mask>.storyboard</mask>
+      <mask>*.storyboard</mask>
       <mask>*.swift,*.m,*.h</mask>
     </recentFileMasks>
   </component>
