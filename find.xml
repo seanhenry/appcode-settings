@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.swift,*.m,*.h" />
@@ -15,7 +17,6 @@
       <mask>*Builder*.swift</mask>
       <mask>**.swift</mask>
       <mask>.swift</mask>
-      <mask>*.swift</mask>
       <mask>*.swift,</mask>
       <mask>*.swift,*</mask>
       <mask>*.swift,*.</mask>
@@ -35,6 +36,7 @@
       <mask>.storyboar</mask>
       <mask>.storyboard</mask>
       <mask>*.storyboard</mask>
+      <mask>*.swift</mask>
       <mask>*.swift,*.m,*.h</mask>
     </recentFileMasks>
   </component>
