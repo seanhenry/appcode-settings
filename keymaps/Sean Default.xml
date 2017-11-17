@@ -2,6 +2,12 @@
   <action id="AppCode.ChangeTargetAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt t" />
   </action>
+  <action id="Clean">
+    <keyboard-shortcut first-keystroke="ctrl meta alt k" />
+  </action>
+  <action id="CleanBuildFolder">
+    <keyboard-shortcut first-keystroke="shift meta alt k" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
