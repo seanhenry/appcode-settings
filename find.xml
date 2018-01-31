@@ -4,37 +4,5 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>*.m</mask>
-      <mask>B*.swift</mask>
-      <mask>Build*.swift</mask>
-      <mask>Builde*.swift</mask>
-      <mask>(Builder*.swift</mask>
-      <mask>Builder*.swift</mask>
-      <mask>*Builder*.swift</mask>
-      <mask>**.swift</mask>
-      <mask>.swift</mask>
-      <mask>*.swift,</mask>
-      <mask>*.swift,*</mask>
-      <mask>*.swift,*.</mask>
-      <mask>*.swift,*.m</mask>
-      <mask>*.swift,*.m,</mask>
-      <mask>*.swift,*.m,*</mask>
-      <mask>*.swift,*.m,*.</mask>
-      <mask>*.swift;*.m;*.h</mask>
-      <mask>*.swift;*.m*.h</mask>
-      <mask>*.swift;*.m,*.h</mask>
-      <mask>*.swift*.m,*.h</mask>
-      <mask>.</mask>
-      <mask>.s</mask>
-      <mask>.st</mask>
-      <mask>.stor</mask>
-      <mask>.storybo</mask>
-      <mask>.storyboar</mask>
-      <mask>.storyboard</mask>
-      <mask>*.storyboard</mask>
-      <mask>*.swift</mask>
-      <mask>*.swift,*.m,*.h</mask>
-    </recentFileMasks>
   </component>
 </application>
