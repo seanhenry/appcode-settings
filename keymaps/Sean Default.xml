@@ -1,4 +1,4 @@
-<keymap version="1" name="Sean Default" parent="Mac OS X 10.5+">
+<keymap version="1" name="Sean Default" parent="Default">
   <action id="AppCode.ChangeTargetAction">
     <keyboard-shortcut first-keystroke="ctrl meta alt t" />
   </action>
