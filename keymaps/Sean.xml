@@ -1,1 +1,5 @@
-<keymap version="1" name="Sean" parent="Mac OS X 10.5+" />
+<keymap version="1" name="Sean" parent="Mac OS X 10.5+">
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+</keymap>
