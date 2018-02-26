@@ -4,4 +4,7 @@
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
   </component>
+  <component name="SwiftEditorSettings">
+    <option name="SHOW_TYPE_HINTS" value="true" />
+  </component>
 </application>
