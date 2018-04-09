@@ -1,9 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitignore_global" type="Git file" />
-      <removed_mapping ext="rb" type="PLAIN_TEXT" />
-      <removed_mapping ext="cgi" type="PLAIN_TEXT" />
       <mapping ext=".vagrantplugins" type="textmate" />
       <mapping ext="appfile" type="textmate" />
       <mapping ext="appraisals" type="textmate" />
@@ -41,6 +38,7 @@
       <mapping ext="snapfile" type="textmate" />
       <mapping ext="thorfile" type="textmate" />
       <mapping ext="vagrantfile" type="textmate" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern=".vagrantplugins" type="textmate" />
       <mapping pattern="Appfile" type="textmate" />
       <mapping pattern="Appraisals" type="textmate" />
